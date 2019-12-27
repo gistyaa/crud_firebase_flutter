@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-                "This is StatelessWidget",
+                "Ini adalah stateless Widget",
             ),
             Padding(
                 padding: EdgeInsets.only(bottom: 10.0),
