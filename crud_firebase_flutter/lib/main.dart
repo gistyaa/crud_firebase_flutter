@@ -31,6 +31,16 @@ class MyApp extends StatelessWidget {
             fit: BoxFit.cover 
           )  
         ),
+        child: Padding(
+          padding: const EdgeInsets.only(top: 50),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: <Widget>[
+            new Image.asset("assets/images/logo.png",height: 150.0,width : 150.0,),
+            new Padding(padding: EdgeInsets.only(top: 10),),
+            new Image.asset("assets/images/signin.png",height: 60.0,width : 150.0,),
+          ],),
+        ),
       ), 
     );
   }
