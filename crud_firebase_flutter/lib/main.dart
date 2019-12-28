@@ -26,6 +26,7 @@ class MyApp extends StatelessWidget {
     final FirebaseAuth _auth = FirebaseAuth.instance;
     final GoogleSignIn googleSignIn = GoogleSignIn();
 
+  
   Future<String> signInWithGoogle() async {
       final GoogleSignInAccount googleSignInAccount = await googleSignIn.signIn();
       final GoogleSignInAuthentication googleSignInAuthentication =
