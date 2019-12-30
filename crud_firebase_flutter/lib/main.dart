@@ -1,8 +1,8 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'myProject.dart';
-import 'login.dart';
 
 void main() => runApp(MyApp());
 
@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
               new InkWell(
                   onTap: () {
                     Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context) =>
-                      new Login()));
+                      new MyProject()));
                   },
                   child: new Image.asset(
                     "assets/images/login1.png",
